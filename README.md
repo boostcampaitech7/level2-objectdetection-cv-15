@@ -17,3 +17,8 @@ tar -xzvf data.tar.gz
 
 # 5. 압축 파일 삭제
 rm data.tar.gz
+
+# 6. 필요 패키지 다운로드
+cd baseline
+source activate base
+pip install -r requirements.txt
