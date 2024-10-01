@@ -1,0 +1,5 @@
+train: /data/ephemeral/mpark/backup/dataset/train
+val: /data/ephemeral/mpark/backup/dataset/val
+
+nc: 11
+names: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]

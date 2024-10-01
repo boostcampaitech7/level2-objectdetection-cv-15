@@ -1,0 +1,25 @@
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_setup.py:_flush():79] Current SDK version is 0.18.2
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_setup.py:_flush():79] Configure stats pid to 404067
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_setup.py:_flush():79] Loading settings from /data/ephemeral/home/.config/wandb/settings
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_setup.py:_flush():79] Loading settings from /data/ephemeral/mpark/level2-objectdetection-cv-15/mpark/train_yolo/wandb/settings
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'mpark/yolov5/train.py', 'program_abspath': '/data/ephemeral/mpark/level2-objectdetection-cv-15/mpark/yolov5/train.py', 'program': '/data/ephemeral/mpark/level2-objectdetection-cv-15/mpark/train_yolo/../yolov5/train.py'}
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_setup.py:_flush():79] Applying login settings: {'login_timeout': 30}
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_init.py:_log_setup():532] Logging user logs to /data/ephemeral/mpark/level2-objectdetection-cv-15/mpark/train_yolo/wandb/run-20241001_222440-btc420de/logs/debug.log
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_init.py:_log_setup():533] Logging internal logs to /data/ephemeral/mpark/level2-objectdetection-cv-15/mpark/train_yolo/wandb/run-20241001_222440-btc420de/logs/debug-internal.log
+2024-10-01 22:24:40,176 INFO    MainThread:404067 [wandb_init.py:init():616] calling init triggers
+2024-10-01 22:24:40,177 INFO    MainThread:404067 [wandb_init.py:init():623] wandb.init called with sweep_config: {}
+config: {'weights': 'yolov5s.pt', 'cfg': '../yolov5/models/yolov5m.yaml', 'data': 'dataset.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0}, 'epochs': 300, 'batch_size': 32, 'imgsz': 640, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'noplots': False, 'evolve': None, 'evolve_population': PosixPath('../yolov5/data/hyps'), 'resume_evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'optimizer': 'SGD', 'sync_bn': False, 'workers': 8, 'project': '../yolov5/runs/train', 'name': 'yolov5s', 'exist_ok': False, 'quad': False, 'cos_lr': False, 'label_smoothing': 0.0, 'patience': 100, 'freeze': [0], 'save_period': -1, 'seed': 0, 'local_rank': -1, 'entity': None, 'upload_dataset': False, 'bbox_interval': -1, 'artifact_alias': 'latest', 'ndjson_console': False, 'ndjson_file': False, 'save_dir': '../yolov5/runs/train/yolov5s'}
+2024-10-01 22:24:40,177 INFO    MainThread:404067 [wandb_init.py:init():666] starting backend
+2024-10-01 22:24:40,177 INFO    MainThread:404067 [wandb_init.py:init():670] sending inform_init request
+2024-10-01 22:24:40,178 INFO    MainThread:404067 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-01 22:24:40,178 INFO    MainThread:404067 [wandb_init.py:init():683] backend started and connected
+2024-10-01 22:24:40,181 INFO    MainThread:404067 [wandb_init.py:init():778] updated telemetry
+2024-10-01 22:24:40,187 INFO    MainThread:404067 [wandb_init.py:init():811] communicating run to backend with 90.0 second timeout
+2024-10-01 22:24:41,036 INFO    MainThread:404067 [wandb_init.py:init():862] starting run threads in backend
+2024-10-01 22:24:41,257 INFO    MainThread:404067 [wandb_run.py:_console_start():2464] atexit reg
+2024-10-01 22:24:41,257 INFO    MainThread:404067 [wandb_run.py:_redirect():2312] redirect: wrap_raw
+2024-10-01 22:24:41,257 INFO    MainThread:404067 [wandb_run.py:_redirect():2377] Wrapping output streams.
+2024-10-01 22:24:41,257 INFO    MainThread:404067 [wandb_run.py:_redirect():2402] Redirects installed.
+2024-10-01 22:24:41,259 INFO    MainThread:404067 [wandb_init.py:init():906] run started, returning control to user process
