@@ -37,9 +37,9 @@ def convert_coco_to_yolo(coco_annotation_file, images_dir, output_dir, val_split
     for img_id in coco['images']:
         img_file = img_id['file_name'][6:]
         img_path = os.path.join(images_dir, img_file)
-
+         
         # Determine if it's a training or validation image
-        if img_id in train_ids:
+        if img_id["id"] in train_ids:
             output_img_path = os.path.join(train_images_dir, img_file)
             label_file_path = os.path.join(train_labels_dir, img_file.replace('.jpg', '.txt'))
         else:
