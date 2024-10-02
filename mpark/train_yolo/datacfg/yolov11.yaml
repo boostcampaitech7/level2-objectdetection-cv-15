@@ -1,0 +1,5 @@
+train: /data/ephemeral/mpark/mpark/train_yolo/yolo_dataset/train/images
+val: /data/ephemeral/mpark/mpark/train_yolo/yolo_dataset/val/images
+
+nc: 10 
+names: ["General trash", "Paper", "Paper pack", "Metal", "Glass", "Plastic", "Styrofoam", "Plastic bag", "Battery", "Clothing"]
