@@ -8,3 +8,11 @@
 {"time":"2024-10-01T22:24:40.184124395+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"btc420de"}}
 {"time":"2024-10-01T22:24:41.039589297+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
 {"time":"2024-10-01T22:24:41.040639118+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-02T00:59:33.855107746+09:00","level":"INFO","msg":"stream: closing","id":"btc420de"}
+{"time":"2024-10-02T00:59:33.855168861+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-02T00:59:33.856971531+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-02T00:59:37.577168636+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-02T00:59:38.075893299+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"btc420de"}}
+{"time":"2024-10-02T00:59:38.075954163+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"btc420de"}}
+{"time":"2024-10-02T00:59:38.07595351+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"btc420de"}}
+{"time":"2024-10-02T00:59:38.076043647+09:00","level":"INFO","msg":"stream: closed","id":"btc420de"}
