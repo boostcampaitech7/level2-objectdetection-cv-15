@@ -1,0 +1,19 @@
+{"time":"2024-10-02T17:35:24.593941169+09:00","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-02T17:35:24.593957495+09:00","level":"INFO","msg":"created symlink","path":"/data/ephemeral/level2-objectdetection-cv-15/jseo/baseline/faster_rcnn/wandb/run-20241002_173524-kkwccfrg/logs/debug-core.log"}
+{"time":"2024-10-02T17:35:24.595574358+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-02T17:35:24.597419064+09:00","level":"INFO","msg":"created new stream","id":"kkwccfrg"}
+{"time":"2024-10-02T17:35:24.597459207+09:00","level":"INFO","msg":"stream: started","id":"kkwccfrg"}
+{"time":"2024-10-02T17:35:24.597489863+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"kkwccfrg"}}
+{"time":"2024-10-02T17:35:24.597551959+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kkwccfrg"}}
+{"time":"2024-10-02T17:35:24.597489062+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"kkwccfrg"}}
+{"time":"2024-10-02T17:35:25.185047307+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T17:35:25.186193531+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-02T17:35:25.439544516+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-02T17:35:25.441306507+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-02T17:35:29.418052268+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-02T17:35:30.441397241+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
+{"time":"2024-10-02T17:35:30.841108642+09:00","level":"INFO","msg":"stream: closing","id":"kkwccfrg"}
+{"time":"2024-10-02T17:35:30.841135795+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"kkwccfrg"}}
+{"time":"2024-10-02T17:35:30.84117366+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kkwccfrg"}}
+{"time":"2024-10-02T17:35:30.841229507+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"kkwccfrg"}}
+{"time":"2024-10-02T17:35:30.841236937+09:00","level":"INFO","msg":"stream: closed","id":"kkwccfrg"}

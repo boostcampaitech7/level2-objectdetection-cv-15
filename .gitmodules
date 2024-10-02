@@ -1,0 +1,3 @@
+[submodule "mpark/baseline/mmyolo"]
+	path = mpark/baseline/mmyolo
+	url = https://github.com/open-mmlab/mmyolo.git

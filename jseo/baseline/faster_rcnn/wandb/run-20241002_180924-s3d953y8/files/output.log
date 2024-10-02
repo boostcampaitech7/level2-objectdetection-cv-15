@@ -1,0 +1,17 @@
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name    | Type                   | Params
+---------------------------------------------------
+0 | model   | RetinaNet              | 32.4 M
+1 | val_acc | MulticlassJaccardIndex | 0
+---------------------------------------------------
+32.1 M    Trainable params
+222 K     Non-trainable params
+32.4 M    Total params
+129.422   Total estimated model params size (MB)
+Sanity Checking DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s]
+/opt/conda/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:441: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=7` in the `DataLoader` to improve performance.

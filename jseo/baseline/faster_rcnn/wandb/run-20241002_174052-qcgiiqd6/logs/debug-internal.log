@@ -1,0 +1,19 @@
+{"time":"2024-10-02T17:40:52.037110251+09:00","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-02T17:40:52.037114861+09:00","level":"INFO","msg":"created symlink","path":"/data/ephemeral/level2-objectdetection-cv-15/jseo/baseline/faster_rcnn/wandb/run-20241002_174052-qcgiiqd6/logs/debug-core.log"}
+{"time":"2024-10-02T17:40:52.03855809+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-02T17:40:52.041201753+09:00","level":"INFO","msg":"created new stream","id":"qcgiiqd6"}
+{"time":"2024-10-02T17:40:52.041240263+09:00","level":"INFO","msg":"stream: started","id":"qcgiiqd6"}
+{"time":"2024-10-02T17:40:52.04127653+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"qcgiiqd6"}}
+{"time":"2024-10-02T17:40:52.041340192+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"qcgiiqd6"}}
+{"time":"2024-10-02T17:40:52.041466817+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"qcgiiqd6"}}
+{"time":"2024-10-02T17:40:52.40410827+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T17:40:52.404951057+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-02T17:40:52.653085391+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-02T17:40:52.654855994+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-02T17:40:54.449984164+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-02T17:40:55.749721413+09:00","level":"INFO","msg":"stream: closing","id":"qcgiiqd6"}
+{"time":"2024-10-02T17:40:55.74976643+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"qcgiiqd6"}}
+{"time":"2024-10-02T17:40:55.749792045+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"qcgiiqd6"}}
+{"time":"2024-10-02T17:40:55.74980866+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"qcgiiqd6"}}
+{"time":"2024-10-02T17:40:55.749848215+09:00","level":"INFO","msg":"stream: closed","id":"qcgiiqd6"}
+{"time":"2024-10-02T17:40:57.655444065+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

@@ -1,0 +1,39 @@
+{"time":"2024-10-02T15:27:54.250717506+09:00","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-02T15:27:54.250731362+09:00","level":"INFO","msg":"created symlink","path":"/data/ephemeral/level2-objectdetection-cv-15/jseo/baseline/faster_rcnn/wandb/run-20241002_152754-j7b7mh88/logs/debug-core.log"}
+{"time":"2024-10-02T15:27:54.253120748+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-02T15:27:54.255698823+09:00","level":"INFO","msg":"created new stream","id":"j7b7mh88"}
+{"time":"2024-10-02T15:27:54.255721647+09:00","level":"INFO","msg":"stream: started","id":"j7b7mh88"}
+{"time":"2024-10-02T15:27:54.255770437+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"j7b7mh88"}}
+{"time":"2024-10-02T15:27:54.255920791+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"j7b7mh88"}}
+{"time":"2024-10-02T15:27:54.255983028+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"j7b7mh88"}}
+{"time":"2024-10-02T15:27:54.631514065+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T15:27:54.632700721+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-02T15:27:54.88682567+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:27:54.897592354+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:27:54.899454255+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:27:54.908367172+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:27:54.908894712+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:27:54.918826033+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:27:54.920648518+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:27:54.931453979+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:27:54.9323012+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:27:54.939269432+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:27:54.940902449+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:27:54.946659526+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:27:56.780095115+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:29:57.145205426+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:29:57.149348744+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:30:01.351798635+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:30:01.35569988+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:30:15.972544406+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:30:15.974291537+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:30:15.980405905+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:30:15.997068225+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-02T15:30:15.998660697+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-02T15:30:19.327225025+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-02T15:30:20.614399955+09:00","level":"INFO","msg":"stream: closing","id":"j7b7mh88"}
+{"time":"2024-10-02T15:30:20.614433713+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"j7b7mh88"}}
+{"time":"2024-10-02T15:30:20.614467683+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"j7b7mh88"}}
+{"time":"2024-10-02T15:30:20.614484835+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"j7b7mh88"}}
+{"time":"2024-10-02T15:30:20.614543019+09:00","level":"INFO","msg":"stream: closed","id":"j7b7mh88"}
+{"time":"2024-10-02T15:30:20.99918832+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
