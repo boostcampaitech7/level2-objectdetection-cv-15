@@ -1,3 +1,6 @@
 [submodule "mpark/yolov5"]
 	path = mpark/yolov5
 	url = https://github.com/ultralytics/yolov5.git
+[submodule "mpark/train_yolo/ultralytics"]
+	path = mpark/train_yolo/ultralytics
+	url = https://github.com/ultralytics/ultralytics.git
