@@ -22,6 +22,7 @@ def convert_coco_to_yolo(coco_annotation_file, images_dir, output_dir, val_split
 
     # Mapping from category_id to class number
     category_mapping = {category['id']: i for i, category in enumerate(coco['categories'])}
+    print(f"{category_mapping}")
 
     # Collect image filenames for splitting
     all_images = {img['id']: img['file_name'] for img in coco['images']}
@@ -52,18 +53,18 @@ def convert_coco_to_yolo(coco_annotation_file, images_dir, output_dir, val_split
 
         with open(label_file_path, 'w') as label_file:
             for annotation in coco['annotations']:
-                if annotation['image_id'] == img_id:
+                if annotation['image_id'] == img_id["id"]:
                     category_id = annotation['category_id']
-                    if category_id in category_mapping:
-                        class_id = category_mapping[category_id]
-                        x, y, width, height = annotation['bbox']
-                        # Convert to YOLO format: class x_center y_center width height
-                        x_center = (x + width / 2) / img_id['width']
-                        y_center = (y + height / 2) / img_id['height']
-                        width /= img_id['width']
-                        height /= img_id['height']
+                    class_id = category_mapping[category_id]
+                    x, y, width, height = annotation['bbox']
+                    # Convert to YOLO format: class x_center y_center width height
+                    x_center = (x + width / 2) / img_id['width']
+                    y_center = (y + height / 2) / img_id['height']
+                    width /= img_id['width']
+                    height /= img_id['height']
+                    print(f"{class_id} {x_center} {y_center} {width} {height}")
 
-                        label_file.write(f"{class_id} {x_center} {y_center} {width} {height}\n")
+                    label_file.write(f"{class_id} {x_center} {y_center} {width} {height}\n")
 
 # Usage
 coco_annotation_file = '/data/ephemeral/level2-objectdetection-cv-15/dataset/train.json'
