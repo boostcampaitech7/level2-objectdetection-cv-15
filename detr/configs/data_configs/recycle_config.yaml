@@ -1,0 +1,25 @@
+# configs/data_configs/recycle_config.yaml
+data:
+  raw_data_path: /data/ephemeral/home/level2-objectdetection-cv-15/dataset
+  train_ann_file: train.json
+  test_ann_file: test.json
+  train_val_split: 0.8
+  pin_memory: true
+  train:
+    batch_size: 32
+    num_workers: 7
+    shuffle: true
+  val:
+    batch_size: 32
+    num_workers: 7
+    shuffle: false
+  test:
+    batch_size: 16
+    num_workers: 4
+    shuffle: false
+  predict:
+    batch_size: 1
+    num_workers: 4
+    shuffle: false
+
+seed: 42

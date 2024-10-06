@@ -1,0 +1,14 @@
+# configs/processor_configs/auto_image_processor_config.yaml
+
+# detr
+# "facebook/detr-resnet-50"
+# "facebook/detr-resnet-101"
+
+# deformable detr
+# "SenseTime/deformable-detr"
+
+# conditional detr
+# "microsoft/conditional-detr-resnet-50"
+# "Omnifact/conditional-detr-resnet-101-dc5"
+
+path: "microsoft/conditional-detr-resnet-50"
