@@ -1,0 +1,19 @@
+{"time":"2024-10-02T17:53:50.988050382+09:00","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-02T17:53:50.988069045+09:00","level":"INFO","msg":"created symlink","path":"/data/ephemeral/level2-objectdetection-cv-15/jseo/baseline/faster_rcnn/wandb/run-20241002_175350-tojbofj4/logs/debug-core.log"}
+{"time":"2024-10-02T17:53:50.989933544+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-02T17:53:50.992367841+09:00","level":"INFO","msg":"created new stream","id":"tojbofj4"}
+{"time":"2024-10-02T17:53:50.992397172+09:00","level":"INFO","msg":"stream: started","id":"tojbofj4"}
+{"time":"2024-10-02T17:53:50.992451792+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"tojbofj4"}}
+{"time":"2024-10-02T17:53:50.992571978+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tojbofj4"}}
+{"time":"2024-10-02T17:53:50.992657372+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"tojbofj4"}}
+{"time":"2024-10-02T17:53:51.341862474+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T17:53:51.342904711+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-02T17:53:51.599369542+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-02T17:53:51.601230937+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-02T17:53:53.051835388+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-02T17:53:54.527128862+09:00","level":"INFO","msg":"stream: closing","id":"tojbofj4"}
+{"time":"2024-10-02T17:53:54.527167509+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"tojbofj4"}}
+{"time":"2024-10-02T17:53:54.527199829+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tojbofj4"}}
+{"time":"2024-10-02T17:53:54.527252072+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"tojbofj4"}}
+{"time":"2024-10-02T17:53:54.527263521+09:00","level":"INFO","msg":"stream: closed","id":"tojbofj4"}
+{"time":"2024-10-02T17:53:56.601230465+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

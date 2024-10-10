@@ -1,0 +1,19 @@
+{"time":"2024-10-02T14:39:15.478650547+09:00","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-02T14:39:15.478670454+09:00","level":"INFO","msg":"created symlink","path":"/data/ephemeral/level2-objectdetection-cv-15/jseo/baseline/faster_rcnn/wandb/run-20241002_143915-u55axjm8/logs/debug-core.log"}
+{"time":"2024-10-02T14:39:15.4811369+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-02T14:39:15.483506312+09:00","level":"INFO","msg":"created new stream","id":"u55axjm8"}
+{"time":"2024-10-02T14:39:15.483570826+09:00","level":"INFO","msg":"stream: started","id":"u55axjm8"}
+{"time":"2024-10-02T14:39:15.483617632+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"u55axjm8"}}
+{"time":"2024-10-02T14:39:15.483671695+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"u55axjm8"}}
+{"time":"2024-10-02T14:39:15.48376406+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"u55axjm8"}}
+{"time":"2024-10-02T14:39:16.169236827+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T14:39:16.170793541+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-02T14:39:16.410759405+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T14:39:16.421175617+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T14:39:16.423944728+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T14:39:16.432125944+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T14:39:16.434175281+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T14:39:16.442716248+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T14:39:16.44411279+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T14:39:16.46079417+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T14:39:31.234195053+09:00","level":"INFO","msg":"Pausing system monitor"}

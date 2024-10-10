@@ -1,0 +1,19 @@
+{"time":"2024-10-02T17:46:01.527954959+09:00","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-02T17:46:01.52797632+09:00","level":"INFO","msg":"created symlink","path":"/data/ephemeral/level2-objectdetection-cv-15/jseo/baseline/faster_rcnn/wandb/run-20241002_174601-zxf439x5/logs/debug-core.log"}
+{"time":"2024-10-02T17:46:01.529691607+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-02T17:46:01.531872952+09:00","level":"INFO","msg":"created new stream","id":"zxf439x5"}
+{"time":"2024-10-02T17:46:01.531893517+09:00","level":"INFO","msg":"stream: started","id":"zxf439x5"}
+{"time":"2024-10-02T17:46:01.53191725+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"zxf439x5"}}
+{"time":"2024-10-02T17:46:01.532040522+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zxf439x5"}}
+{"time":"2024-10-02T17:46:01.53191725+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"zxf439x5"}}
+{"time":"2024-10-02T17:46:01.932475498+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T17:46:01.93338957+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-02T17:46:02.222661465+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-02T17:46:02.22518245+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-02T17:46:03.858805163+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-02T17:46:05.286081621+09:00","level":"INFO","msg":"stream: closing","id":"zxf439x5"}
+{"time":"2024-10-02T17:46:05.286113921+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"zxf439x5"}}
+{"time":"2024-10-02T17:46:05.286135867+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"zxf439x5"}}
+{"time":"2024-10-02T17:46:05.286157761+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"zxf439x5"}}
+{"time":"2024-10-02T17:46:05.286202908+09:00","level":"INFO","msg":"stream: closed","id":"zxf439x5"}
+{"time":"2024-10-02T17:46:07.225726253+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

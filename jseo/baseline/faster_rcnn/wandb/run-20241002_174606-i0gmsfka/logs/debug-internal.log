@@ -1,0 +1,11 @@
+{"time":"2024-10-02T17:46:06.528404801+09:00","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-02T17:46:06.528422503+09:00","level":"INFO","msg":"created symlink","path":"wandb/run-20241002_174606-i0gmsfka/logs/debug-core.log"}
+{"time":"2024-10-02T17:46:06.528560721+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-02T17:46:06.529314276+09:00","level":"INFO","msg":"created new stream","id":"i0gmsfka"}
+{"time":"2024-10-02T17:46:06.529341444+09:00","level":"INFO","msg":"stream: started","id":"i0gmsfka"}
+{"time":"2024-10-02T17:46:06.529348999+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"i0gmsfka"}}
+{"time":"2024-10-02T17:46:06.529406876+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"i0gmsfka"}}
+{"time":"2024-10-02T17:46:06.529372173+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"i0gmsfka"}}
+{"time":"2024-10-02T17:46:07.351098184+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T17:46:07.351521047+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-02T17:46:12.141101162+09:00","level":"INFO","msg":"Pausing system monitor"}

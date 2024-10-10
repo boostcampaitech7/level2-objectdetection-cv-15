@@ -1,0 +1,33 @@
+{"time":"2024-10-02T15:15:41.870747164+09:00","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-02T15:15:41.870762059+09:00","level":"INFO","msg":"created symlink","path":"/data/ephemeral/level2-objectdetection-cv-15/jseo/baseline/faster_rcnn/wandb/run-20241002_151541-ztwxbwgw/logs/debug-core.log"}
+{"time":"2024-10-02T15:15:41.872911169+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-02T15:15:41.874623361+09:00","level":"INFO","msg":"created new stream","id":"ztwxbwgw"}
+{"time":"2024-10-02T15:15:41.874693866+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ztwxbwgw"}}
+{"time":"2024-10-02T15:15:41.874912972+09:00","level":"INFO","msg":"stream: started","id":"ztwxbwgw"}
+{"time":"2024-10-02T15:15:41.874877373+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ztwxbwgw"}}
+{"time":"2024-10-02T15:15:41.874887402+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ztwxbwgw"}}
+{"time":"2024-10-02T15:15:42.226610172+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-02T15:15:42.227433532+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-02T15:15:42.461143071+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:15:42.470487296+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:15:42.472454068+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:15:42.478927526+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:15:42.479483864+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:15:42.491120988+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:15:42.493083119+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:15:42.500509612+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:15:42.502170296+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:15:42.509130371+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:15:44.195581056+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:17:52.504905842+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:17:52.546657647+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-02T15:17:52.546683493+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-02T15:17:52.546702363+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-02T15:17:52.548547462+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-02T15:17:56.089887768+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-02T15:17:57.466777417+09:00","level":"INFO","msg":"stream: closing","id":"ztwxbwgw"}
+{"time":"2024-10-02T15:17:57.466792374+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ztwxbwgw"}}
+{"time":"2024-10-02T15:17:57.466817861+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ztwxbwgw"}}
+{"time":"2024-10-02T15:17:57.466855467+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"ztwxbwgw"}}
+{"time":"2024-10-02T15:17:57.466903987+09:00","level":"INFO","msg":"stream: closed","id":"ztwxbwgw"}
+{"time":"2024-10-02T15:17:57.549216773+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
