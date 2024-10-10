@@ -35,7 +35,7 @@ cfg.DATALOADER.NUM_WOREKRS = 2
 
 cfg.OUTPUT_DIR = './output'
 
-cfg.MODEL.WEIGHTS = os.path.join(cfg.OUTPUT_DIR, 'model_final.pth')
+cfg.MODEL.WEIGHTS = os.path.join(cfg.OUTPUT_DIR, 'model_0000699.pth')
 
 cfg.MODEL.RETINANET.BATCH_SIZE_PER_IMAGE = 128
 cfg.MODEL.RETINANET.NUM_CLASSES = 10

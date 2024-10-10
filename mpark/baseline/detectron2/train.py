@@ -50,16 +50,16 @@ cfg.DATASETS.TEST = ('coco_trash_test',)
 
 cfg.DATALOADER.NUM_WOREKRS = 2
 
-cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url('COCO-Detection/retinanet_R_101_FPN_3x.yaml')
-#cfg.MODEL.WEIGHTS = "/data/ephemeral/mpark/mpark/baseline/detectron2/output/model_0008999.pth"
+#cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url('COCO-Detection/retinanet_R_101_FPN_3x.yaml')
+cfg.MODEL.WEIGHTS = "/data/ephemeral/mpark/mpark/baseline/detectron2/output/model_0399999.pth"
 cfg.MODEL.BACKBONE.FREEZE_AT = 0
 
 cfg.SOLVER.IMS_PER_BATCH = 4
-cfg.SOLVER.BASE_LR = 1e-3 
-cfg.SOLVER.MAX_ITER = 400000
-cfg.SOLVER.STEPS = (10000,390000)
+cfg.SOLVER.BASE_LR = 5e-6 
+cfg.SOLVER.MAX_ITER = 1000
+cfg.SOLVER.STEPS = (10, 90)
 cfg.SOLVER.GAMMA = 0.005
-cfg.SOLVER.CHECKPOINT_PERIOD = 50000
+cfg.SOLVER.CHECKPOINT_PERIOD = 20 
 
 cfg.OUTPUT_DIR = './output'
 
