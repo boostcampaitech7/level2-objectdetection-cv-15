@@ -1,6 +1,5 @@
 # optimizer
 optimizer = dict(
-    _delete_=True,
     constructor='LearningRateDecayOptimizerConstructor',
     type='AdamW',
     lr=0.0001,
