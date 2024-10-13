@@ -1,0 +1,46 @@
+data_module: "src.data.custom_datamodules.recycle_datamodule.RecycleDataModule"
+# "src.plmodules.detr_module.{ClassName}"
+model_module: "src.plmodules.detr_module.ConditionalDetrResNet50Module"
+
+# config file path
+data_config_path: "/data/ephemeral/home/recycle/detr/configs/data_configs/recycle_config.yaml"
+augmentation_config_path: "/data/ephemeral/home/recycle/detr/configs/augmentation_configs/basic_augmentation.yaml"
+processor_config_path: "/data/ephemeral/home/recycle/detr/configs/processor_configs/auto_image_processor_config.yaml"
+
+model:
+  lr: 1e-4
+
+optimizer:
+  name: AdamW
+  lr_backbone: 1e-5
+  params:
+    lr: 1e-4
+    weight_decay: 1e-4
+
+scheduler:
+  name: StepLR
+  params:
+    step_size: 10
+    gamma: 0.7
+
+trainer:
+  max_epochs: 100
+  accelerator: gpu
+  devices: 1
+
+callbacks:
+  model_checkpoint:
+    monitor: validation_mAP50
+    save_top_k: 3
+    mode: max
+  early_stopping:
+    monitor: validation_mAP50
+    patience: 5
+    mode: max
+
+seed: 42  # 시드 값 추가
+
+wandb:
+  project: detr
+  # name: {model}_{backbone}_{augmentation_type}
+  name: conditinoal_detr_resnet50_basicaugmentation
