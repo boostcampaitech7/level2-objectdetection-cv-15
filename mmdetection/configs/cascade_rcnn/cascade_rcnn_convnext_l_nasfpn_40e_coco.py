@@ -1,4 +1,8 @@
-_base_ = './cascade_rcnn_r50_fpn_1x_coco.py'
+_base_ = [
+    '../_base_/models/cascade_rcnn_r50_fpn.py',
+    '../_base_/datasets/coco_detection.py',
+    '../_base_/schedules/schedule_40e.py', '../_base_/default_runtime.py'
+]
 
 # please install mmcls>=0.22.0
 # import mmcls.models to trigger register_module in mmcls
