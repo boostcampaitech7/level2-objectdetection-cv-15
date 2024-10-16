@@ -186,7 +186,7 @@ resume = False
 seed = 2024
 test_cfg = dict(type='TestLoop')
 test_dataloader = dict(
-    batch_size=1,
+    batch_size=8,
     dataset=dict(
         ann_file='test.json',
         backend_args=None,
@@ -241,7 +241,7 @@ test_pipeline = [
 train_cfg = dict(max_epochs=12, type='EpochBasedTrainLoop', val_interval=1)
 train_dataloader = dict(
     batch_sampler=dict(type='AspectRatioBatchSampler'),
-    batch_size=1,
+    batch_size=8,
     dataset=dict(
         dataset=dict(
             ann_file='train.json',
