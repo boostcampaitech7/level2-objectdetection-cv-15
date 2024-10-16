@@ -167,7 +167,7 @@ optim_wrapper = dict(
             0.999,
         ), lr=0.0001, type='AdamW', weight_decay=0.05),
     paramwise_cfg=dict(decay_rate=0.95, decay_type='layer_wise', num_layers=6),
-    type='AmpOptimWrapper')
+    type='OptimWrapper')
 param_scheduler = [
     dict(
         begin=0, by_epoch=False, end=500, start_factor=0.001, type='LinearLR'),
@@ -186,7 +186,7 @@ resume = False
 seed = 2024
 test_cfg = dict(type='TestLoop')
 test_dataloader = dict(
-    batch_size=8,
+    batch_size=4,
     dataset=dict(
         ann_file='test.json',
         backend_args=None,
@@ -211,7 +211,6 @@ test_dataloader = dict(
                 1333,
                 800,
             ), type='Resize'),
-            dict(type='LoadAnnotations', with_bbox=True),
             dict(
                 meta_keys=(
                     'img_id',
@@ -240,7 +239,6 @@ test_pipeline = [
         1333,
         800,
     ), type='Resize'),
-    dict(type='LoadAnnotations', with_bbox=True),
     dict(
         meta_keys=(
             'img_id',
@@ -254,7 +252,7 @@ test_pipeline = [
 train_cfg = dict(max_epochs=12, type='EpochBasedTrainLoop', val_interval=1)
 train_dataloader = dict(
     batch_sampler=dict(type='AspectRatioBatchSampler'),
-    batch_size=8,
+    batch_size=4,
     dataset=dict(
         dataset=dict(
             ann_file='train.json',
