@@ -303,7 +303,7 @@ model = dict(
             nms_pre=2000)),
     type='CascadeRCNN')
 optim_wrapper = dict(
-    clip_grad=dict(max_norm=35, norm_type=2),
+    clip_grad=dict(max_norm=5, norm_type=2),
     constructor='LearningRateDecayOptimizerConstructor',
     loss_scale='dynamic',
     optimizer=dict(
@@ -333,7 +333,7 @@ resume = False
 seed = 2024
 test_cfg = dict(type='TestLoop')
 test_dataloader = dict(
-    batch_size=1,
+    batch_size=4,
     dataset=dict(
         ann_file='test.json',
         backend_args=None,
@@ -358,7 +358,6 @@ test_dataloader = dict(
                 1333,
                 800,
             ), type='Resize'),
-            dict(type='LoadAnnotations', with_bbox=True),
             dict(
                 meta_keys=(
                     'img_id',
@@ -388,7 +387,6 @@ test_pipeline = [
         1333,
         800,
     ), type='Resize'),
-    dict(type='LoadAnnotations', with_bbox=True),
     dict(
         meta_keys=(
             'img_id',
@@ -402,7 +400,7 @@ test_pipeline = [
 train_cfg = dict(max_epochs=40, type='EpochBasedTrainLoop', val_interval=1)
 train_dataloader = dict(
     batch_sampler=dict(type='AspectRatioBatchSampler'),
-    batch_size=8,
+    batch_size=4,
     dataset=dict(
         ann_file='train.json',
         backend_args=None,
