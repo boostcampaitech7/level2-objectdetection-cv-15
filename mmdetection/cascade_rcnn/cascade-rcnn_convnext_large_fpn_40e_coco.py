@@ -339,6 +339,19 @@ test_dataloader = dict(
         backend_args=None,
         data_prefix=dict(img='./'),
         data_root='/data/ephemeral/home/level2-objectdetection-cv-15/dataset/',
+        metainfo=dict(
+            classes=(
+                'General trash',
+                'Paper',
+                'Paper pack',
+                'Metal',
+                'Glass',
+                'Plastic',
+                'Styrofoam',
+                'Plastic bag',
+                'Battery',
+                'Clothing',
+            )),
         pipeline=[
             dict(backend_args=None, type='LoadImageFromFile'),
             dict(keep_ratio=True, scale=(
