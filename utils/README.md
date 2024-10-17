@@ -1,6 +1,7 @@
 ## Ensemble inference
 
 ### nms
+---
 NMS는 객체 탐지에서 가장 기본적이고 널리 사용되는 기법이야. 다수의 예측 박스 중에서 가장 높은 점수를 가진 박스를 선택하고, 그 박스와의 IoU(Intersection over Union)가 특정 임계값을 넘는 나머지 박스들을 제거해. 이 과정을 반복해서 최종 박스들을 남기는 방식이야.
 
 - 작동 방식:
@@ -13,7 +14,8 @@ NMS는 객체 탐지에서 가장 기본적이고 널리 사용되는 기법이�
 - 단점: IoU 임계값에 민감하고, 겹치는 객체를 잘 처리하지 못할 수 있음.
 
 
-### softnms
+### soft_nms
+---
 Soft-NMS는 NMS의 개선된 버전으로, 박스를 완전히 제거하지 않고 점수를 부드럽게 감소시키는 방식이야. 겹치는 박스가 있을 때 IoU에 따라 점수를 줄이고, 제거하는 대신 낮은 점수로 남겨둬. 이런 방식으로 겹치는 객체들을 더 잘 처리할 수 있어.
 
 - 작동 방식: 
@@ -25,9 +27,10 @@ Soft-NMS는 NMS의 개선된 버전으로, 박스를 완전히 제거하지 않�
 - 단점: NMS보다 계산량이 많음.
 
 ### non_maximum_weighted
+---
 Non-Maximum Weighted는 중복되는 박스의 정보를 완전히 버리지 않고, 서로 가중 평균을 계산하여 최종 예측 박스를 생성하는 방식이야. 여러 박스의 위치와 점수를 고려하여 더 정밀한 위치를 추정할 수 있어.
 
-작동 방식:
+- 작동 방식:
 
 
 1. NMS처럼 상위 점수의 박스를 기준으로 하되, IoU가 일정 임계값을 넘는 박스들의 좌표와 점수를 가중치로 계산.
@@ -37,6 +40,7 @@ Non-Maximum Weighted는 중복되는 박스의 정보를 완전히 버리지 않
 
 
 ### weighted_boxes_fusion
+---
 **Weighted Boxes Fusion (WBF)** 는 특히 앙상블 모델에서 자주 사용하는 방법으로, 중복되는 박스들을 가중 평균으로 결합해 최종 예측 박스를 생성해. 중복 박스의 점수와 좌표를 합쳐 보다 정확한 박스 위치를 추정하는 방식이야. 특히 여러 모델의 예측을 앙상블할 때 유용해.
 
 - 작동 방식:
@@ -48,13 +52,16 @@ Non-Maximum Weighted는 중복되는 박스의 정보를 완전히 버리지 않
 - 단점: 계산량이 많고, 매우 많은 중복 박스가 있을 때 성능이 떨어질 수 있음.
 
 ### 사용 방법
+---
 
 1. config file 수정
 - data_path: data root 경로
 - csv_paths: 앙상블 할 csv file들의 경로
 - iou_thr: nms IoU threshold 설정
 - save_filename: 새로 저장할 csv file 이름
-    
+
+2. command 실행
+
 ```bash
 python ensemble_inference.py {config_path} --method={method_name}
 ```
