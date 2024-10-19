@@ -1,10 +1,11 @@
 data_path: '/data/ephemeral/dataset/'
 
 csv_paths: [
-    'retinanet_convnext_large.csv', 
-    'cascade_rcnn_convnext_large.csv'
+    'dino_resnet50.csv', 
+    'dino_swin.csv',
+    'retinanet_cascade_rcnn.csv'
 ]
 
 iou_thr: 0.55
 
-save_filename: retinanet_cascade_rcnn
+save_filename: all_ensemble

@@ -34,6 +34,8 @@ def main():
     csv_df = [pd.read_csv(file) for file in csv_paths]
     image_ids = csv_df[0]['image_id'].tolist()
 
+    print(f'ensemble method: {method}')
+
     ann = os.path.join(data_path, 'test.json')
     coco = COCO(ann)
 
