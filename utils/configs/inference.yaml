@@ -1,0 +1,10 @@
+data_path: '/data/ephemeral/dataset/'
+
+csv_paths: [
+    'retinanet_convnext_large.csv', 
+    'cascade_rcnn_convnext_large.csv'
+]
+
+iou_thr: 0.55
+
+save_filename: retinanet_cascade_rcnn
