@@ -1,5 +1,7 @@
 # ♻ 재활용 쓰레기 이미지 데이터 객체 탐지 
 
+<br/>
+
 ## 👨‍👩‍👧‍👦 팀 구성
 <div align="center">
 <table>
@@ -49,29 +51,27 @@
   </tr>
 </table>
 </div>
-
 <br />
 
 ## 📃 프로젝트 개요
 분리수거는 환경 부담을 줄일 수 있는 방법 중 하나입니다. 잘 분리배출 된 쓰레기는 자원으로서 가치를 인정받아 재활용되지만, 잘못 분리배출 되면 그대로 폐기물로 분류되어 매립 또는 소각되기 때문입니다.
 
-따라서 우리는 사진에서 재활용 쓰레기를 Detection 하는 모델을 만들어 이러한 문제점을 해결해보고자 합니다. 문제 해결을 위한 데이터셋으로는 일반 쓰레기, 플라스틱, 종이, 유리 등 10 종류의 쓰레기가 찍힌 사진 데이터셋이 제공됩니다.
+따라서 우리는 사진에서 재활용 쓰레기를 Detection 하는 모델을 만들어 이러한 문제점을 해결해보고자 합니다.
 
+문제 해결을 위한 데이터셋으로는 일반 쓰레기, 플라스틱, 종이, 유리 등 10 종류의 쓰레기가 찍힌 사진 데이터셋이 제공됩니다.
 <br/>
 
 ## ✔ 평가 지표
-mAP50(Mean Average Precision)로 평가
+`mAP50(Mean Average Precision)로 평가`
 
 - Object Detection에서 사용하는 대표적인 성능 측정 방법
 
 - Ground Truth 박스와 Prediction 박스간 IoU가 50이 넘는 예측에 대해 True라고 판단
 
-
 <br/>
 
 ## 📅 프로젝트 일정
 2024/09/30 ~ 2024/10/24
-
 <br/>
 
 ## 💻 개발 환경
@@ -83,7 +83,6 @@ mAP50(Mean Average Precision)로 평가
 - Framework : PyTorch, pl, MMDetection, MMYOLO
 - Collaborative Tool : Git, Notion
 ```
-
 <br/>
 
 ## 🔆 프로젝트 결과
@@ -118,7 +117,7 @@ mAP50(Mean Average Precision)로 평가
  ┣ 📄.gitignore
  ┣ 📄README.md
  ```
-
+<br/>
 ## ⚙️ requirements
 ```
 ```
@@ -132,6 +131,7 @@ mAP50(Mean Average Precision)로 평가
 
 #### 3) `mmdetection`
 - mmdetection의 3개의 모델 backbone 변경 및 학습 방법론 교차 실험
+    
     - cascade_rcnn
     - dino
     - retinanet
@@ -144,7 +144,6 @@ mAP50(Mean Average Precision)로 평가
 
 #### 6) `utils`
 - ensemble 추론 및 pseudo_labeling을 위한 코드
-
 <br/>
 
 ## 📃 Wrap-Up 리포트
