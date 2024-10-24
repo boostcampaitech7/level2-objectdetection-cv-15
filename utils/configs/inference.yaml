@@ -1,10 +1,13 @@
 data_path: '/data/ephemeral/dataset/'
 
 csv_paths: [
-    'retinanet_convnext_large.csv', 
-    'cascade_rcnn_convnext_large.csv'
+    'retinanet_cascade_rcnn.csv',
+    'convnext_dino_6698.csv',
+    'swin_dino_6546.csv',
+    #'convnext_codino_6281.csv',
+    'yolox_5590.csv'
 ]
 
 iou_thr: 0.55
 
-save_filename: retinanet_cascade_rcnn
+save_filename: last
