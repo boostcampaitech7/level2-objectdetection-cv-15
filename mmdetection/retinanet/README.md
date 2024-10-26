@@ -14,7 +14,7 @@
 | RetinaNet   | ConvNeXt-tiny | FPN                | RetinaHead        | mstrain_3x                     | 0.4978            |
 | RetinaNet   | ConvNeXt-large | FPN               | RetinaHead        | mstrain_3x                     | 0.6073            |
 
-## retinanet_convnext_large_fpn_ms-640-800-3x_coco.py
+## 📝 retinanet_convnext_large_fpn_ms-640-800-3x_coco.py
 
 The `retinanet_convnext_large_fpn_ms-640-800-3x_coco.py` configuration file is used to train a RetinaNet model with the ConvNeXt-large backbone and FPN neck for object detection on the COCO dataset. Below are some of the key settings and configurations used in this file:
 
@@ -40,16 +40,16 @@ The `retinanet_convnext_large_fpn_ms-640-800-3x_coco.py` configuration file is u
 
 The model is configured for detection of 10 classes including: `General trash`, `Paper`, `Paper pack`, `Metal`, `Glass`, `Plastic`, `Styrofoam`, `Plastic bag`, `Battery`, and `Clothing`.
 
-### Key Hyperparameters
+### ✅ Key Hyperparameters
 - **Batch Size**: Training uses a batch size of 4.
 - **Number of Workers**: 7 workers are used per GPU.
 - **Image Scales**: The model is trained on multi-scale images, with sizes such as `(1333, 800)` and `(666, 400)`.
 - **Optimizer Configuration**: `AdamW` optimizer is used with layer-wise learning rate decay.
 
-### Model Usage
+### ✅ Model Usage
 This model is suitable for applications that require accurate object detection on common waste items, such as recycling or environmental monitoring projects.
 
-### Checkpoints and Logs
+### ✅ Checkpoints and Logs
 - **Checkpoints**: Checkpoints are saved every epoch to monitor training progress.
 - **Logs**: Logs are recorded every 50 iterations for tracking metrics such as loss and learning rate.
 
