@@ -10,6 +10,6 @@
 |Yolov11x|???|???|???|LinearLR_300e|0.3715|
 |Yolov10x|YOLOXCSPDarknet|YOLOXPAFPN|YOLOXHead|QuadraticWarmup_CosineAnnealing_Constant_300e||
 |Yolov10x|Swin-L-IN22K|YOLOXPAFPN|YOLOXHead|QuadraticWarmup_CosineAnnealing_Constant_300e||
-|Yolov10x|ConvnNeXT|YOLOXHead|QuadraticWarmup_CosineAnnealing_Constant_300e||
+|Yolov10x|ConvnNeXT|YOLOXHead|YOLOXHead|QuadraticWarmup_CosineAnnealing_Constant_300e||
 
 
