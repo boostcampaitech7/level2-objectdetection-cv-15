@@ -85,10 +85,6 @@
 ```
 <br/>
 
-## 🔆 프로젝트 결과
-
-<br/>
-
 ## 📁 프로젝트 구조
 ```
 📦level2-objectdetection-cv-15
@@ -118,11 +114,6 @@
  ┣ 📄README.md
  ```
 <br/>
-
-## ⚙️ requirements
-```
-```
-<br/>
  
 #### 1) `eda` 
 - 재활용 쓰레기 이미지 데이터셋 분석 노트북
@@ -147,7 +138,14 @@
 - ensemble 추론 및 pseudo_labeling을 위한 코드
 <br/>
 
+## 🔆 프로젝트 결과
+
+![image](https://github.com/user-attachments/assets/48d9e471-427b-408a-b0d9-97c97395a372)
+<br/>
+
+
 ## 📃 Wrap-Up 리포트
+- [다운로드 링크](https://drive.google.com/file/d/1GzF3Fhbp-FnVN4l4QuqQTYCF4v0CJ_Jw/view?usp=sharing)
 
 <br/>
 <br/>
