@@ -1,0 +1,8 @@
+/dataset/
+/sample_submission/
+/baseline/faster_rcnn/checkpoints/
+__pycache__
+lightning_logs/
+checkpoints/
+/mpark/yolov5/
+work_dirs/

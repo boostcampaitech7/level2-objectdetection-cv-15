@@ -1,0 +1,23 @@
+data_path: '/data/ephemeral/dataset/'
+
+csv_paths: [
+<<<<<<< HEAD
+    'dino_resnet50.csv', 
+    'dino_swin.csv',
+    'retinanet_cascade_rcnn.csv'
+=======
+    'retinanet_cascade_rcnn.csv',
+    'convnext_dino_6698.csv',
+    'swin_dino_6546.csv',
+    #'convnext_codino_6281.csv',
+    'yolox_5590.csv'
+>>>>>>> 6e38d35e07233112558d09382ef2e9d76c25470b
+]
+
+iou_thr: 0.55
+
+<<<<<<< HEAD
+save_filename: all_ensemble
+=======
+save_filename: last
+>>>>>>> 6e38d35e07233112558d09382ef2e9d76c25470b
